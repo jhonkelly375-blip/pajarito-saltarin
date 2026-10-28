@@ -1,6 +1,8 @@
 {
   "appId": "com.jhonkelly375.pajaritosaltarin",
-  "appName": "Pajarito Saltarín",
+  "appName": "Bola contra los Verdes",
   "webDir": "www",
-  "server": {"androidScheme": "https"}
+  "server": {
+    "androidScheme": "https"
+  }
 }
