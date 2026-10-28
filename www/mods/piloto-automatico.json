@@ -1,0 +1,11 @@
+{
+  "format": "bola-verdes-mod",
+  "version": 1,
+  "id": "piloto-automatico",
+  "name": "IA Piloto Automático",
+  "description": "Mueve la bola, esquiva a los enemigos y dispara automáticamente.",
+  "type": "autopilot",
+  "config": {
+    "dangerDistance": 260
+  }
+}
