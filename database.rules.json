@@ -3,9 +3,9 @@
     "gameRooms": {
       "$room": {
         ".read": "auth != null && data.child('members').child(auth.uid).val() === true",
-        ".write": "auth != null && ((!data.exists() && newData.child('hostUid').val() === auth.uid) || data.child('hostUid').val() === auth.uid)",
         "hostUid": {
           ".read": "auth != null",
+          ".write": "auth != null && ((!data.exists() && newData.val() === auth.uid) || data.val() === auth.uid)",
           ".validate": "newData.isString()"
         },
         "guestUid": {
