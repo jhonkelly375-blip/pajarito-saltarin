@@ -1,4 +1,4 @@
-name: Crear APK Android
+name: Crear APK Android - Bola contra los Verdes
 on:
   push:
     branches: [main]
@@ -28,14 +28,14 @@ jobs:
       - run: cd android && ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: pajarito-saltarin-apk
+          name: bola-contra-los-verdes-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
           retention-days: 30
       - name: Publicar APK descargable
         uses: softprops/action-gh-release@v2
         with:
           tag_name: apk-latest
-          name: Pajarito Saltarín para Android
-          body: APK de prueba instalable generado automáticamente. Descarga app-debug.apk.
+          name: Bola contra los Verdes para Android
+          body: APK de prueba instalable del juego Bola contra los Verdes. Descarga app-debug.apk.
           files: android/app/build/outputs/apk/debug/app-debug.apk
           make_latest: true
