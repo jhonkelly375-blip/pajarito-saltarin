@@ -1,9 +1,5 @@
-# Pajarito Saltarín
+# Bola contra los Verdes
 
-Juego web en español inspirado en Flappy Bird. Toca o presiona espacio para saltar y esquivar los tubos.
+Juego web: mueve la bola azul, dispara a los monstruos verdes, y cuida tus vidas. En computadora usa A/D o las flechas y espacio. En el celular usa los botones de abajo o toca el campo para apuntar.
 
-El juego web se publica automáticamente en GitHub Pages. El flujo de Android genera un APK debug instalable como artefacto de GitHub Actions y en el release `apk-latest`.
-
-## Desarrollo local
-- Sitio: carpeta `www/`.
-- Android: `npm install`, `npx cap add android`, `npx cap sync android`.
+La web se publica en GitHub Pages. El flujo de Android crea un APK debug cuando está disponible.
