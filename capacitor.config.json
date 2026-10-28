@@ -1,0 +1,6 @@
+{
+  "appId": "com.jhonkelly375.pajaritosaltarin",
+  "appName": "Pajarito Saltarín",
+  "webDir": "www",
+  "server": {"androidScheme": "https"}
+}
