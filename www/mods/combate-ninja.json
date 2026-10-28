@@ -1,0 +1,18 @@
+{
+  "format": "bola-verdes-mod",
+  "version": 1,
+  "id": "combate-ninja",
+  "name": "Combate ninja",
+  "description": "Verdes perseguidores, morados que disparan y esquiva precisa.",
+  "type": "combat-ninja",
+  "config": {
+    "unlockScore": 8,
+    "purpleChance": 0.32,
+    "greenHoming": 0.045,
+    "purpleFireRate": 85,
+    "projectileSpeed": 3.2,
+    "dodgeWindowPx": 58,
+    "dodgeDuration": 18,
+    "dodgeCooldown": 55
+  }
+}
